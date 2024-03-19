@@ -1,0 +1,26 @@
+.contenedorGuias {
+    display: flex;
+    margin: 10vh;
+  }
+  
+  .Ubicacion {
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  main {
+    &.Card {
+      background-color: $color-azul;
+      color: #000;
+    }
+  
+    &.form {
+      color: #000;
+    }
+  }
+  
